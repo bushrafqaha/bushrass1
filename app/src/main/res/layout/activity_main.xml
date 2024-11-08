@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lf"
+        />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Mind Haven "
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+         />
+
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="288dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:text="Mind Fuel"
+        android:textSize="28sp"
+         />
+
+
+
+    <Button
+        android:id="@+id/btnGoals"
+        android:layout_width="281dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:text="Mind Test"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+    android:text="Welcome to Mind Haven\n Your guide to better Mind Healh"
+    android:textSize="24sp"
+        android:textStyle="bold"
+    android:lineSpacingExtra="4dp"
+    android:fontFamily="sans-serif-medium" />
+
+
+
+</LinearLayout>

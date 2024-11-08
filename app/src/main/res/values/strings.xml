@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="what_is_something_that_can_speak_all_the_languages_in_the_world">What is something that can speak all the languages in the world?</string>
+    <string name="if_the_current_time_is_10_00_am_after_120_minutes_the_time_will_be">If the current time is 10:00 AM, after 120 minutes, the time will be.?</string>
+    <string name="you_are_in_a_race_if_you_overtake_the_person_in_second_place_what_position_are_you_in_now">You are in a race. If you overtake the person in second place, what position are you in now?</string>
+    <string-array name="topics_array">
+        <item>The parrot</item>
+        <item>The echo</item>
+        <item>The human</item>
+    </string-array>
+</resources>
